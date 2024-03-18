@@ -38,6 +38,7 @@ body {
     width: 100%;
     height: auto;
     border-bottom: 1px solid black;
+    justify-content: space-between;
 }
 .infos a{
     color: black;
@@ -45,7 +46,7 @@ body {
 }
 .cont-info{
     margin: 2rem 2.5rem;
-    width: 220px;
+    width: 20%;
 }
 
 /* NED INFO */
@@ -191,4 +192,12 @@ p{
 .cont-certificados span{
     font-weight: 300;
     font-size: 14px;
+}
+@media screen and (max-width: 900px) {
+    .infos{
+        justify-content:start;
+    }
+    .cont-info{
+        width: 500px;
+    }
 }
