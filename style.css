@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -13,25 +13,28 @@ body {
     padding: 0px 2rem;
 }
 
-.title{
+.title {
     height: 150px;
     width: 100%;
     border-bottom: 1px solid black;
 }
-.cont-title{
+
+.cont-title {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
 }
-.cont-title h1{
+
+.cont-title h1 {
     font-size: 3rem;
     text-align: center;
 }
+
 /* END TITLE */
 
-.infos{
+.infos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -40,24 +43,27 @@ body {
     border-bottom: 1px solid black;
     justify-content: space-between;
 }
-.infos a{
+
+.infos a {
     color: black;
     text-decoration: none;
 }
-.cont-info{
+
+.cont-info {
     margin: 2rem 2.5rem;
     width: 20%;
 }
 
 /* NED INFO */
 
-.objetivo{
+.objetivo {
     margin: 2rem 0px;
     width: 100%;
     height: 120px;
     border-bottom: 1px solid black;
 }
-h2{
+
+h2 {
     height: 30px;
     width: 100%;
     background-color: beige;
@@ -67,137 +73,161 @@ h2{
 
 /* end obj */
 
-.sobre{
+.sobre {
     width: 100%;
     height: auto;
     border-bottom: 1px solid black;
     margin-bottom: 2rem;
 }
 
-.cont-sobre{
+.cont-sobre {
     margin-bottom: 2rem;
 }
 
-.formacao{
+.formacao {
     margin: 2rem 0px;
     width: 100%;
     border-bottom: 1px solid black;
 }
-.cont-formacao{
+
+.cont-formacao {
     margin-bottom: 2rem;
 }
-.control-formacao{
+
+.control-formacao {
     display: flex;
     height: 100px;
     flex-direction: column;
 }
-.control-formacao h3{
+
+.control-formacao h3 {
     margin-bottom: 10px;
     font-size: 21px;
     font-weight: bold;
 }
-.control-formacao h4{
+
+.control-formacao h4 {
     font-size: 19px;
     font-weight: bold;
 }
-.techs{
+
+.techs {
     margin: 2rem 0px;
     width: 100%;
     border-bottom: 1px solid black;
 }
-.techs p{
+
+.techs p {
     font-weight: 300;
     font-size: 14px;
     margin-bottom: 2rem;
 }
-.cont-techs{
+
+.cont-techs {
     margin-bottom: 2rem;
 }
-.tech{
+
+.tech {
     height: 35px;
     font-size: 20px;
 }
-.projetos{
+
+.projetos {
     margin: 2rem 0px;
     width: 100%;
     border-bottom: 1px solid black;
 }
-.cont-projects{
+
+.cont-projects {
     margin-bottom: 2rem;
 }
-.project{
+
+.project {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px
 }
-.projetos a{
+
+.projetos a {
     color: black;
     font-size: 19px;
     font-weight: 600;
 }
-label{
+
+label {
     font-size: 21px;
     font-weight: bold;
 }
 
-.experiencia{
+.experiencia {
     margin: 2rem 0px;
     width: 100%;
     border-bottom: 1px solid black;
 }
 
-.cont-exp{
+.cont-exp {
     margin-bottom: 2rem;
 }
-.control-exp{
+
+.control-exp {
     margin-bottom: 50px;
 }
-.funcao{
+
+.funcao {
     font-size: 21px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-p{
+p {
     margin-top: 10px;
     font-weight: 600;
     font-size: 17px;
 }
-.certificados{
+
+.certificados {
     margin: 2rem 0px;
     width: 100%;
     border-bottom: 1px solid black;
 }
-.cont-certificados{
+
+.cont-certificados {
     margin-bottom: 2rem;
 }
-.control-certificados{
+
+.control-certificados {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
 }
-.title-modulo{
+
+.title-modulo {
     font-size: 21px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.competencias{
+
+.competencias {
     font-size: 19px;
     font-weight: 600;
 }
-.control-certificados a{
+
+.control-certificados a {
     margin-top: 10px;
     color: black;
 }
-.cont-certificados span{
+
+.cont-certificados span {
     font-weight: 300;
     font-size: 14px;
 }
+
 @media screen and (max-width: 900px) {
-    .infos{
-        justify-content:start;
+    .infos {
+        justify-content: start;
     }
-    .cont-info{
+
+    .cont-info {
         width: 500px;
     }
 }
