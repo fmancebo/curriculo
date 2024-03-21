@@ -49,6 +49,10 @@ body {
     text-decoration: none;
 }
 
+.infos a:hover {
+    text-decoration: underline;
+}
+
 .cont-info {
     margin: 2rem 2.5rem;
     width: 20%;
