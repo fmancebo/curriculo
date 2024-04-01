@@ -226,6 +226,10 @@ p {
     font-size: 14px;
 }
 
+footer {
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     .infos {
         justify-content: start;
