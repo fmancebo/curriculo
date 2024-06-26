@@ -147,13 +147,14 @@ h2 {
 
 .cont-projects {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
 .project {
   display: flex;
-  width: 300px;
+  width: 350px;
   flex-direction: column;
   margin: 0 auto;
   margin-bottom: 30px;
