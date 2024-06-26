@@ -146,18 +146,22 @@ h2 {
 }
 
 .cont-projects {
-  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .project {
   display: flex;
+  width: 300px;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .projetos a {
   color: black;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
 }
 
