@@ -151,6 +151,10 @@ h2 {
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
+.control-projects {
+  width: 100%;
+  display: flex;
+}
 
 .project {
   display: flex;
