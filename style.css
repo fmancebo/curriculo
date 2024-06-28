@@ -251,4 +251,7 @@ footer {
   .cont-info {
     width: 500px;
   }
+  .control-projects {
+    flex-direction: column;
+  }
 }
